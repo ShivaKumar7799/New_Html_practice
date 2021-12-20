@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Html practice</title>
+</head>
+<body>
+        <h1 style="text-align: center;color: blueviolet;background-color: black; font-size: 46px; font-family: 'Courier New', Courier, monospace;"> Practicing Basic Html tags</h1>
+        <!--  Heading tags-->
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+<hr>
+        <!-- Paragraph tags-->
+        <h1>Paragraph tags</h1>
+        <p>Paragraph tag is a block level tag. Block level tag means it will always start from a new line.</p>
+        <p>This is another paragraph line. It will also starts from new line.</p>
+
+        <!-- List tags
+        there are two types of list tags are there 1) Order lists 2) Unordered lists-->
+<hr>
+        <ol>
+                <h1>Ordered Lists</h1>
+
+                <li>List one</li>
+                <li>List two</li>
+                <li>List three</li>
+                <li>List four</li>
+                <li>List five</li>
+
+                <p>In Default numbers will come for ordered Lists</p>
+        </ol>
+
+        <ul>
+                <h1>Unordered lists</h1>
+
+                <li>List one </li>
+                <li>List two</li>
+                <li>List three</li>
+                <li>List four</li>
+                <li>List five</li>
+
+                <p>In Default bullets will come for unorded list</p>
+        </ul>
+<hr>
+        <h1>Line break tags</h1>
+        <!-- Break tags are used to create line breaks-->
+        <p>we are usig line breaks after this line</p>
+        <br><br>
+        <p>we have used two line breaks above. It creates two line breaks </p>
+<hr>
+        <!-- Code and Pre formatting Tags-->
+        <h1>Code and Pre formatting tags</h1>
+        <p>If your code is of single line use code tag. If your code is multiline use pre tag</p>
+        <h3>Using code tag</h3>
+        <code>
+                #include<stdio.h>
+                        void main()
+                        {
+                                int a,b,c;
+                                printf(" Enter the value of a");
+
+                        }
+                </stdio.h>
+        </code>
+        <h3>Using pre tag</h3>
+        <pre>
+                #include<stdio.h>
+                        void main()
+                        {
+                                int a,b,c;
+                                printf(" Enter the value of a");
+
+                        }
+        </pre>
+        <p>Pre tag will shows the exact content what we have written along with spaces</p>
+        <p>Meanwhile code tag ignores all the spaces and shows code in single line</p>
+<hr>
+        <h1>Table tag</h1>
+        <p>nort: Table rows used in tr tag and Table columns used in td tag</p>
+
+        <table style="border: 5px solid red;">
+                <tbody>
+                        <tr > 
+                        <td>Toyato</td> <td>8 lakhs</td> 
+                        </tr>
+                        <tr>
+                        <td>Audi</td> <td> 10 lakhs</td>
+                        </tr>
+                </tbody>
+                <tfoot>
+                        <tr >
+                                <td colspan="2" style="border: 2px solid blue;">Overall data of Caras</td>
+                        </tr>
+                </tfoot>
+                <thead> 
+                        <tr>
+                                <th style="border: 2px solid green">Car Names</th> <th style="border:2px solid green">Price names</th>
+                        </tr>
+                </thead>
+                <Caption><strong>Car Names and Prices</strong></Caption>
+        </table>
+        <p> Note: If we are using border in table tag. It will apply for outside of the border</p>
+        <p>If we want to add border for each element then add style to each td element</p>
+        <p>Caption tag is used as a title for a table tag</p>
+<hr><hr>
+        <h1>Basic form tags</h1>
+<hr>
+        <h3>Input text type</h3>
+        <h4>I want to take input as a simple text, Empty box will come</h4>
+        <input type="text" name="" id="">
+        <p>We can type input in the above box</p>
+<hr>
+        <h3>Input email type</h3>
+        <h4>I want to take input type email as well</h4>
+        <input type="email" name="" id="">
+        <p> We can type input type email here</p>
+<hr>
+        <h3>Input type password</h3>
+        <h4>I want to take input as a password</h4>
+        <input type="password" name="" id="">
+        <p>We can type input type password here</p>
+<hr>
+        <h3>Input type date</h3>
+        <h4>I want to take input type date</h4>
+        <input type="date">
+        <p>We can apple date type input here</p>
+<hr>
+        <h3>Input type button</h3>
+        <h4>I want to take input type button</h4>
+        <input type="button" value="Click me!">
+        <p>We can add a button with value click here</p>
+<hr>
+        <h3>Input type submit</h3>
+        <h4>I want to add a sumbit button</h4>
+        <input type="submit">
+        <p> we can add a submit button here</p>
+<hr>
+        <h3>Input type radio</h3>
+        <h4>I want to add a radio button here</h4>
+        <input type="radio" name="select">
+        <input type="radio" name="select">
+        <p>We can add a radio button here, Remember we have to give same name for radio buttons</p>
+<hr>
+        <h3>Input type Checkbox</h3>
+        <h4>I want to add a checkbox here</h4>
+        <input type="checkbox">
+        <input type="checkbox" name="" id="">
+        <p>We can add checkbox here</p>
+<hr>
+        <h3>Input type File</h3>
+        <h4>I want to add a input file</h4>
+        <input type="file">
+        <p>We can add a file here</p>
+<hr>
+        <h3>Input type numbere</h3>
+        <h4>I want to add a input type number</h4>
+        <input type="number">
+        <p> We can add numbers add with increasing and decreasing arrows</p>
+<hr>
+        <h3>input type disabled</h3>
+        <h4>I want to disabled the text here</h4>
+        <input type="text" name="" id="" value="shiva" disabled>
+        <p>We can Disabled the value in the input, we cant type any input here</p>
+<hr>
+        <h3>Input type required</h3>
+        <h4>I want to add a required input type</h4>
+        <input type="text" value="shiva" required >
+        <p> If we use this type required then we cant submit the form without filling it</p>
+<hr>
+        <h3>Input type autocomplete</h3>
+        <h4>I want to add autocomplete</h4>
+        <input type="text" autocomplete="false">
+        <p> If we use autocomplete value as false then we can disable autocomplete here</p>
+        <p>Note: Some browsers will take input autocomplete we can disavble by using autocomplete false</p>
+<hr>
+        <h3>Input type Placeholder</h3>
+        <h4>We can add a Placeholder</h4>
+        <input type="text" placeholder="Enter your username ">
+        <p> When we are adding placeholder then it will displays a valur in the input box and when we start typing in the box the value of the placeholder disappear</p>
+<hr>
+        <h1> Select tags</h1>
+        <p>Note: select tags offers dropdown menu</p>
+
+        <select name="" id="">
+                <option value="SSC">select ssc</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Graduation">Graduation</option>
+                <option value="Post Graduation"> Post Graduation</option>
+        </select>
+        <p>Above select tag for single selection</p>
+<hr>
+<select name="" id="" multiple>
+        <option value="SSC">select ssc</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Graduation">Graduation</option>
+        <option value="Post Graduation"> Post Graduation</option>
+</select>
+        <p>We have added multiple in select tag to select two or more than two items</p>
+<hr>
+        <h1>Label tag</h1>
+        <label for="selectLabel">Text type input:</label>
+        <input type="text" id="selectLabel">
+        <p>Note: By using id, we are linking lable and input for this we have to line label for and input id as same name, If we click on the label we can add text in the box</p>
+        <br>
+        <h3>Label tag for radio buttons</h3>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="others">Others</label>
+        <input type="radio" id="others" name="gender">
+        <p>Radio buttons are mostly used for single selection so give the same input name same for three radio buttons input </p>
+<hr>
+        <h1>Anchor Tags</h1>
+        <p>Anchor tags are used to create links for webpages, images etc..</p>
+        <a href="https://www.google.com">Go to google</a>
+        <p>If we click on the above link it will go to the google website</p>
+        <br>
+        <a href="https://www.google.com" target="_blank">Go to google</a>
+        <p>If we click on the above link it will go to the google website in new tab because we are using target attribute blank in the above anchor tag</p>
+<hr>
+        <h1>Span Tag</h1>
+        <p>If we want to change color for specific word or words in the sentence we use span tag <br>
+        span tag is a inline element. we can change the color of the span tag, we can increase the font size and style also.</p>
+        <p>We are applying <span style="color: red;border: 1px solid blue; background-color:black;font-size: large;">span tag.</span> in this line for (span tag) used in this tag </p>
+<hr>
+<hr>
+
+
+
+</body>
+</html>
